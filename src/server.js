@@ -10,8 +10,8 @@ const NotesValidator = require('./validator/notes/index');
 const init = async () => {
   const notesService = new NotesService();
   const server = Hapi.server({
-    port:  process.env.PORT,
-    host:  process.env.HOST,
+    port:  5000,
+    host:  localhost,
     routes: {
       cors: {
         origin: ['*'],
