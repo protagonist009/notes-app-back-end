@@ -1,4 +1,5 @@
 const mapDBToModel = ({
+
   id,
   title,
   body,
@@ -17,3 +18,4 @@ const mapDBToModel = ({
 });
 
 module.exports = { mapDBToModel };
+
